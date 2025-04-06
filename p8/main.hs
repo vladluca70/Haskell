@@ -5,6 +5,7 @@ square=map(^2)[1..]
 checkLists::[Int]->[Int]->Bool
 checkLists a b=a==b
 
+
 apply::[Int]->[Int]
 apply =map(^3).filter (\x->x`mod`3==0)
 
